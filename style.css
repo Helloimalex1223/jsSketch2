@@ -1,0 +1,67 @@
+html{
+    background-color: #DB2436;
+    height: 100%;
+}
+.wrapper {
+    width: 40em;
+    height: 100%;
+    margin: auto;
+    background-color: #91DB24;
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+.container {
+    width: 400px;
+    margin: auto;
+}
+#squares {
+    display: flex;
+    flex-wrap: wrap;
+}
+.etchSquare {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color:  white;
+    flex-direction: column;
+    outline: groove;
+    outline-width: 1px;
+}
+
+#colorpicker{
+    display: none;
+}
+.buttons{
+    display: flex;
+    width: 400px;
+    margin: auto;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    /* outline: solid .5px black; */
+}
+button {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 25%;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: 1000;
+    border: hidden;
+    border-radius: 0px;
+    background-color: #6E24DB;
+    color: #91DB24;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #91DB24;
+    color: #6E24DB;
+}
+.title{
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+}
